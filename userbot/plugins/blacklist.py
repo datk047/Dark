@@ -10,8 +10,8 @@ import re
 
 from telethon import events
 
-import fridayuserbot.plugins.sql_helper.blacklist_sql as sql
-from fridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+import fridayfridayuserbot.plugins.sql_helper.blacklist_sql as sql
+from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 
 @friday.on(events.NewMessage(incoming=True))

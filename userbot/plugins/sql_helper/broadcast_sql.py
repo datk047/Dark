@@ -2,7 +2,7 @@
 
 from sqlalchemy import Column, String
 
-from fridayuserbot.plugins.sql_helper import BASE, SESSION
+from fridayfridayuserbot.plugins.sql_helper import BASE, SESSION
 
 
 class ghdb(BASE):

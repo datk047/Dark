@@ -15,9 +15,9 @@ from hachoir.parser import createParser
 from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeVideo
 
-from fridayuserbot import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
-from fridayuserbot.events import register
-from fridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayuserbot import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
+from fridayfridayuserbot.events import register
+from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 
 async def progress(current, total, event, start, type_of_ps, file_name=None):
@@ -82,9 +82,9 @@ def time_formatter(milliseconds: int) -> str:
 @friday.on(friday_on_cmd(pattern="download(?: |$)(.*)", outgoing=True))
 @friday.on(sudo_cmd(pattern="download(?: |$)(.*)", allow_sudo=True))
 async def download(target_file):
-    """ For .dl command, download files to the fridayuserbot's server. """
+    """ For .dl command, download files to the fridayfridayuserbot's server. """
     friday = await edit_or_reply(target_file, "`Processing ...`")
-    await friday.edit("Processing using fridayuserbot server ( ◜‿◝ )♡")
+    await friday.edit("Processing using fridayfridayuserbot server ( ◜‿◝ )♡")
     input_str = target_file.pattern_match.group(1)
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
@@ -246,10 +246,10 @@ async def uploadir(udir_event):
 
 @register(pattern=r".upload (.*)", outgoing=True)
 async def upload(u_event):
-    """ For .upload command, allows you to upload a file from the fridayuserbot's server """
+    """ For .upload command, allows you to upload a file from the fridayfridayuserbot's server """
     await u_event.edit("Processing ...")
     input_str = u_event.pattern_match.group(1)
-    if input_str in ("fridayuserbot.session", "config.env"):
+    if input_str in ("fridayfridayuserbot.session", "config.env"):
         await u_event.edit("`That's a dangerous operation! Not Permitted!`")
         return
     if os.path.exists(input_str):

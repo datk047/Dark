@@ -19,8 +19,8 @@ from telethon.tl.types import (
     User
 )
 from telethon.utils import get_display_name
-from fridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
-from fridayuserbot.Configs import Config
+from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd, edit_or_reply
+from fridayfridayuserbot.Configs import Config
 
 @friday.on(events.NewMessage(
     incoming=True,

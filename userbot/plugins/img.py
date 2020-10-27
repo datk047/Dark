@@ -7,8 +7,8 @@ import os
 import shutil
 from re import findall
 
-from fridayuserbot.googol_images import googleimagesdownload
-from fridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayuserbot.googol_images import googleimagesdownload
+from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 
 
 @friday.on(friday_on_cmd(pattern="img ?(.*)"))

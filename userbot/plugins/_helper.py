@@ -1,4 +1,4 @@
-from fridayuserbot import CMD_LIST
+from fridayfridayuserbot import CMD_LIST
 
 
 @command(pattern="^.help ?(.*)")

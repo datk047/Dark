@@ -5,7 +5,7 @@
 from PIL import Image, ImageFont, ImageDraw
 import textwrap
 import os
-from fridayuserbot.utils import friday_on_cmd, sudo_cmd
+from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
 from var import Var
 # how a lazy guy ports.
 client = borg

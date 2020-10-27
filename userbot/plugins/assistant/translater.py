@@ -13,16 +13,16 @@ from telethon.tl.types import (
 
 import emoji
 from googletrans import Translator
-from fridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 from telethon.utils import get_display_name
-from fridayuserbot.utils import friday_on_cmd, sudo_cmd
-from fridayuserbot.Configs import Config
+from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
+from fridayfridayuserbot.Configs import Config
 from telethon import events
-from fridayuserbot import bot 
+from fridayfridayuserbot import bot 
 from datetime import datetime
-from fridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 import time
-from fridayuserbot import Lastupdate
+from fridayfridayuserbot import Lastupdate
 
 @tgbot.on(events.NewMessage(pattern="^/tr ?(.*)"))
 async def _(event):

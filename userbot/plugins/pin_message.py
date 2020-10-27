@@ -2,7 +2,7 @@
 Syntax: .cpin [LOUD]"""
 from telethon.tl import functions
 
-from fridayuserbot.utils import friday_on_cmd
+from fridayfridayuserbot.utils import friday_on_cmd
 
 
 @friday.on(friday_on_cmd("cpin ?(.*)"))

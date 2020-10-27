@@ -1,6 +1,6 @@
 from telethon.tl.types import InputMediaDice
 
-from fridayuserbot.utils import friday_on_cmd
+from fridayfridayuserbot.utils import friday_on_cmd
 
 # EMOJI CONSTANTS
 DART_E_MOJI = "🎯"

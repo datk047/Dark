@@ -24,23 +24,23 @@ from googletrans import Translator
 import re
 import io
 from math import ceil
-from fridayuserbot.plugins import inlinestats
+from fridayfridayuserbot.plugins import inlinestats
 from telethon import custom, events, Button
-from fridayuserbot import CMD_LIST
-from fridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayuserbot import CMD_LIST
+from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 from telethon.utils import get_display_name
-from fridayuserbot.utils import friday_on_cmd, sudo_cmd
-from fridayuserbot.Configs import Config
+from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
+from fridayfridayuserbot.Configs import Config
 from telethon import events
 from datetime import datetime
-from fridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
+from fridayfridayuserbot.utils import friday_on_cmd, edit_or_reply, sudo_cmd
 import time
 from telethon.tl.functions.photos import GetUserPhotosRequest
 from telethon.tl.functions.users import GetFullUserRequest
-from fridayuserbot import Lastupdate, bot
-from fridayuserbot.plugins.sql_helper.botusers_sql import add_me_in_db, his_userid
-from fridayuserbot.plugins.sql_helper.idadder_sql import add_usersid_in_db, get_all_users, already_added
-from fridayuserbot.plugins.sql_helper.blacklist_assistant import add_nibba_in_db, get_all_nibba, is_he_added, removenibba
+from fridayfridayuserbot import Lastupdate, bot
+from fridayfridayuserbot.plugins.sql_helper.botusers_sql import add_me_in_db, his_userid
+from fridayfridayuserbot.plugins.sql_helper.idadder_sql import add_usersid_in_db, get_all_users, already_added
+from fridayfridayuserbot.plugins.sql_helper.blacklist_assistant import add_nibba_in_db, get_all_nibba, is_he_added, removenibba
 
 @tgbot.on(events.NewMessage(pattern="^/start"))
 async def start(event):

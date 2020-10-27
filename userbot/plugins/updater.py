@@ -6,10 +6,10 @@ Syntax: .update
 import asyncio
 import os
 import sys
-from fridayuserbot.Configs import Config
+from fridayfridayuserbot.Configs import Config
 import git
 
-from fridayuserbot.utils import friday_on_cmd
+from fridayfridayuserbot.utils import friday_on_cmd
 
 # -- Constants -- #
 IS_SELECTED_DIFFERENT_BRANCH = (
@@ -19,7 +19,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
-BOT_IS_UP_TO_DATE = "`The fridayuserbot is up-to-date.\nThank you for Using this Service.`"
+BOT_IS_UP_TO_DATE = "`The fridayfridayuserbot is up-to-date.\nThank you for Using this Service.`"
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n" "changelog: \n\n{changelog}\n" "updating ..."
 )

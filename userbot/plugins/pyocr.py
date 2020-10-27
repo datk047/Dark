@@ -4,8 +4,8 @@ except ImportError:
     import Image
 import pytesseract
 import os
-from fridayuserbot.utils import friday_on_cmd, sudo_cmd
-from fridayuserbot.Configs import Config
+from fridayfridayuserbot.utils import friday_on_cmd, sudo_cmd
+from fridayfridayuserbot.Configs import Config
 import html
 @friday.on(friday_on_cmd(pattern="read$"))
 async def _(event):
