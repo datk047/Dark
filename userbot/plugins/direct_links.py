@@ -15,8 +15,8 @@ import requests
 from bs4 import BeautifulSoup
 from humanize import naturalsize
 
-from userbot import CMD_HELP
-from userbot.events import register
+from fridayuserbot import CMD_HELP
+from fridayuserbot.events import register
 
 
 def subprocess_run(cmd):

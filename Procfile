@@ -1,1 +1,1 @@
-userbot: python -m userbot
+fridayuserbot: python -m fridayuserbot

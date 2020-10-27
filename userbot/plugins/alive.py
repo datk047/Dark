@@ -1,11 +1,11 @@
-"""Check if userbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
+"""Check if fridayuserbot alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
 # CREDITS: @WhySooSerious, @Sur_vivor
 import time
 from uniborg.util import friday_on_cmd, sudo_cmd
-from userbot import ALIVE_NAME
+from fridayuserbot import ALIVE_NAME
 from datetime import datetime
-from userbot import Lastupdate
-from userbot.plugins import currentversion
+from fridayuserbot import Lastupdate
+from fridayuserbot.plugins import currentversion
 
 #Functions
 def get_readable_time(seconds: int) -> str:
